@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Tempo: React.FC = ({staticDateString}) => {
+const Tempo: React.FC<{staticDateString: string}> = ({staticDateString}) => {
   const dynamicDate = new Date();
   const dynamicDateString = dynamicDate.toUTCString();
 
