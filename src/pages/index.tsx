@@ -4,7 +4,6 @@ import Head from 'next/head'
 import RocketseatLogo from '../assets/rocketseat.svg'
 
 import { Container, Spacer } from '../styles/pages/Home'
-import Menu from '../components/Menu'
 import { ModelSection, ModelsWrapper } from '../components/Model'
 import DefaultOverlayContent from '../components/DefaultOverlayContent'
 import UniqueOverlay from '../components/UniqueOverlay'

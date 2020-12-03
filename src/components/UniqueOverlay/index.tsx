@@ -14,13 +14,12 @@ const UniqueOverlay: React.FC = () => {
     <Container>
       <Header>
         <Logo />
-        <div>
-          <a>Consultoria Online</a>
-          <a>Diferencial</a>
-          <a>Método</a>
-          <a>Planos</a>
-          <a>Fale Conosco</a>
-        </div>
+
+        <a>Consultoria Online</a>
+        <a>Diferencial</a>
+        <a>Método</a>
+        <a>Planos</a>
+        <a>Fale Conosco</a>
       </Header>
 
       <Footer style={{ opacity }}>
