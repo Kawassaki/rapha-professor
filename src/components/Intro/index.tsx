@@ -9,7 +9,7 @@ const Intro: React.FC = () => {
       <Heading>
         <div>
           <aside>
-            <h1>Rapahel Santos</h1>
+            <h1>Raphael Santos</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum is simply dummy text of the printing and
