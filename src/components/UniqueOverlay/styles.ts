@@ -25,7 +25,7 @@ export const Header = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 10em;
+    margin-left: 5em;
 
     > a {
       font-size: 16px;
@@ -38,8 +38,10 @@ export const Header = styled.header`
       }
     }
   }
+
   img {
     width: 10em;
+    margin-left: 5em;
   }
 `
 

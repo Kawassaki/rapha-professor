@@ -4,7 +4,7 @@ import { useTransform } from 'framer-motion'
 import { useWrapperScroll } from '../Model'
 
 import { Container, Header, Burger, Footer } from './styles'
-import logo from '../../assets/raphaLogo.jpeg'
+import logo from '../../assets/RaphaLogo.png'
 
 const UniqueOverlay: React.FC = () => {
   const { scrollYProgress } = useWrapperScroll()

@@ -2,28 +2,25 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: block;
-  flex-direction: column;
-  justify-content: space-between;
   flex: 1;
   background: url('https://fulldisclosurefitness.com/wp-content/uploads/2019/07/dumbbells-at-a-gym.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 60%;
+  background-size: 100% 100%;
   position: relative;
   width: 100%;
-  margin-top: 4.2em;
+  margin-top: 4.9em;
 `
 
 export const Heading = styled.div`
   display: flex;
   background-color: transparent;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 
   div {
-    margin: 6em;
+    margin: 5em 15em;
     background-color: ${props => props.theme.colors.graphite};
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
@@ -31,16 +28,22 @@ export const Heading = styled.div`
     transform: translateY(0px);
 
     aside {
-      width: 20em;
+      width: 100%;
       > h1 {
         font-size: 26px;
       }
+      > h2 {
+        font-size: 18px;
+        opacity: 0.9;
+      }
       > p {
         font-size: 16px;
+        text-align: justify;
+        margin: 0 25px 0 0;
       }
     }
     img {
-      width: 20em;
+      width: 15em;
     }
 
     &:hover {
