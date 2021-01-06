@@ -15,20 +15,31 @@ export const Header = styled.header`
   top: 0;
   left: 0;
   right: 0;
-
   display: flex;
-  justify-content: space-between;
   align-items: center;
-
-  padding: 0 20px;
-  min-height: 52px;
-
-  background-color: #12121487;
-  opacity: 0.8;
+  padding: 5px 20px;
+  background-color: ${props => props.theme.colors.blueSky};
 
   div {
-    width: 100%;
+    width: 40%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10em;
+
+    > a {
+      font-size: 16px;
+      text-decoration: none;
+      transition: color 0.2s;
+
+      &:hover {
+        color: ${props => props.theme.colors.graphite};
+        cursor: pointer;
+      }
+    }
+  }
+  img {
+    width: 10em;
   }
 `
 

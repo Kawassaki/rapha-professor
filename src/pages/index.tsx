@@ -5,7 +5,7 @@ import RocketseatLogo from '../assets/rocketseat.svg'
 
 import { Container, Spacer } from '../styles/pages/Home'
 import { ModelSection, ModelsWrapper } from '../components/Model'
-import DefaultOverlayContent from '../components/DefaultOverlayContent'
+import Intro from '../components/Intro'
 import UniqueOverlay from '../components/UniqueOverlay'
 
 const Home: React.FC = () => {
@@ -13,27 +13,18 @@ const Home: React.FC = () => {
     <Container>
       <ModelsWrapper>
         <div>
-          {[
-            'Model One',
-            'Model Two',
-            'Model Three',
-            'Model Four',
-            'Model Five',
-            'Model Six',
-            'Model Seven'
-          ].map(modelName => (
-            <ModelSection
-              key={modelName}
-              className="colored"
-              modelName={modelName}
-              overlayNode={
-                <DefaultOverlayContent
-                  label={modelName}
-                  description="Order Online for Delivery"
-                />
-              }
-            />
-          ))}
+          <ModelSection
+            key="firstSection"
+            className="colored"
+            modelName="FirstSection"
+            overlayNode={<Intro />}
+          />
+          <ModelSection
+            key="firstSection"
+            className="colored"
+            modelName="FirstSection"
+            overlayNode={<div />}
+          />
         </div>
 
         <Spacer />

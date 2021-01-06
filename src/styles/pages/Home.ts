@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   h1 {
     font-size: 54px;
-    color: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.blueSky};
     margin-top: 40px;
   }
 
@@ -22,13 +22,24 @@ export const Container = styled.div`
   }
 
   .colored:nth-child(1) {
-    background: #121214;
+    background: ${props => props.theme.colors.black};
+    background: linear-gradient(
+      180deg,
+      ${props => props.theme.colors.graphite} 0%,
+      ${props => props.theme.colors.black} 100%
+    );
   }
   .colored:nth-child(2) {
-    background: #29292d;
+    background: ${props => props.theme.colors.black};
+    background: linear-gradient(
+      180deg,
+      ${props => props.theme.colors.black} 0%,
+      ${props => props.theme.colors.graphite} 100%
+    );
   }
   .colored:nth-child(3) {
-    background: #393c41;
+    background: #0098da;
+    background: linear-gradient(180deg, rgba(52, 50, 62, 1) 0%, #0098da 100%);
   }
   .colored:nth-child(4) {
     background: #45484e;

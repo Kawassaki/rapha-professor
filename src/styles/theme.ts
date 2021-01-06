@@ -1,8 +1,13 @@
 const theme = {
   colors: {
-    background: '#121214',
-    text: '#e1e1e6',
-    primary: '#8257e6'
+    white: '#FFFFFF',
+    blueSky: '#009ADA',
+    heavenly: '#296F8F',
+
+    graphite: '#333333',
+    midGraphite: '#5b5b5b',
+
+    black: '#000000'
   }
 }
 
