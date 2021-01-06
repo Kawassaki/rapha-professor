@@ -3,7 +3,7 @@ import React from 'react'
 import { Container, Heading } from './styles'
 import RaphaIntro from '../../assets/RaphaIntro.jpg'
 
-const Intro: React.FC = () => {
+const Page2: React.FC = () => {
   return (
     <Container>
       <Heading>
@@ -31,4 +31,4 @@ const Intro: React.FC = () => {
   )
 }
 
-export default Intro
+export default Page2
