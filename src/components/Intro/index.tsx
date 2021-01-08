@@ -9,7 +9,7 @@ const Page2: React.FC = () => {
       <Heading>
         <div>
           <aside>
-            <h1>Alan Dias</h1>
+            <h1>Raphael Santos</h1>
             <h2>Person Trainer</h2>
             <p>
               Tenho 26 anos, me formei em 2019 no curso de Educação Física, já
